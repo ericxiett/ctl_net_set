@@ -1,0 +1,7 @@
+
+network_bond_interfaces:
+  - device: bond1
+    bootproto: manual
+    bond_mode: 802.3ad
+    bond_miimon: 100
+    bond_slaves: [enp6s0f0, enp8s0f0]

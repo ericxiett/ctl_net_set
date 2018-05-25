@@ -1,0 +1,7 @@
+---
+
+- hosts: cp01
+  roles:
+    - role: network
+  vars_files:
+    - "vars/cp01"

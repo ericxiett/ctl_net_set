@@ -1,0 +1,18 @@
+deploy ansible_host=127.0.0.1
+cp01 ansible_host=10.2.7.1
+cp02 ansible_host=10.2.7.2
+cp03 ansible_host=10.2.7.3
+cp04 ansible_host=10.2.7.4
+cp05 ansible_host=10.2.7.5
+cp06 ansible_host=10.2.7.6
+
+[cp]
+cp01
+cp02
+cp03
+cp04
+cp05
+cp06
+
+[cp:vars]
+ansible_ssh_pass=123456a?
